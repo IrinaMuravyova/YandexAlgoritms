@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "EC50E390-038F-4362-930A-0AE8A1B3591E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8DD7A751-0CBB-41B0-8598-C140ECC16785"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YA5_part2/main.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "8DD7A751-0CBB-41B0-8598-C140ECC16785 - 63e5819c670b15c9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "YA5_part2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/irinamuravyeva/Documents/MySWIFTApps/YandexAlgoritms/YA5_part2/YA5_part2/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "624">
+               </Location>
+               <Location
+                  uuid = "8DD7A751-0CBB-41B0-8598-C140ECC16785 - 63e5819c670b15c9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "YA5_part2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/irinamuravyeva/Documents/MySWIFTApps/YandexAlgoritms/YA5_part2/YA5_part2/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "436">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
