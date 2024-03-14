@@ -7,20 +7,20 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "8DD7A751-0CBB-41B0-8598-C140ECC16785"
+            uuid = "12E0A226-A4FC-457F-940D-FB4AED88503D"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "YA5_part2/main.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "14"
-            endingLineNumber = "14"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
             landmarkName = "unknown"
             landmarkType = "0">
             <Locations>
                <Location
-                  uuid = "8DD7A751-0CBB-41B0-8598-C140ECC16785 - 63e5819c670b15c9"
+                  uuid = "12E0A226-A4FC-457F-940D-FB4AED88503D - 63e5819c670b167d"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -30,12 +30,12 @@
                   urlString = "file:///Users/irinamuravyeva/Documents/MySWIFTApps/YandexAlgoritms/YA5_part2/YA5_part2/main.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "624">
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "308">
                </Location>
                <Location
-                  uuid = "8DD7A751-0CBB-41B0-8598-C140ECC16785 - 63e5819c670b15c9"
+                  uuid = "12E0A226-A4FC-457F-940D-FB4AED88503D - 63e5819c670b2192"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -45,9 +45,9 @@
                   urlString = "file:///Users/irinamuravyeva/Documents/MySWIFTApps/YandexAlgoritms/YA5_part2/YA5_part2/main.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "436">
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "232">
                </Location>
             </Locations>
          </BreakpointContent>
