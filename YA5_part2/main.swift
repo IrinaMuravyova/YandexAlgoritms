@@ -25,83 +25,39 @@ public class Measure {
     }
 }
 
-/* Задача
- Вася решил заняться торговлей рыбой. С помощью методов машинного обучения он предсказал цены на рыбу на N дней вперёд. Он решил, что в один день он купит рыбу, а в один из следующих дней — продаст (то есть совершит или ровно одну покупку и продажу или вообще не совершит покупок и продаж, если это не принесёт ему прибыли). К сожалению, рыба — товар скоропортящийся и разница между номером дня продажи и номером дня покупки не должна превышать K.
- Определите, какую максимальную прибыль получит Вася.
- */
+/* Задача С
+ На столе лежали две одинаковые верёвочки целой положительной длины.
+ Петя разрезал одну из верёвочек на N частей, каждая из которых имеет целую положительную длину, так что на столе стало N+1 верёвочек. Затем в комнату зашла Маша и взяла одну из лежащих на столе верёвочек. По длинам оставшихся на столе N верёвочек определите, какую наименьшую длину может иметь верёвочка, взятая Машей.
+*/
 
-Measure.start("time")
+let n = Int(readLine() ?? "") ?? 0
+let input = (readLine() ?? "").split(separator: " ")
+var ans = -1
+var lengths = [Int]()
+var sum = 0
 
-let nk = readLine() ?? ""
-let n = Int(nk.split(separator: " ")[0]) ?? 0
-let k = Int(nk.split(separator: " ")[1]) ?? 0
-let pricesString = readLine() ?? ""
-
-var prices = [Int]()
-var profit = 0
-var profitMax = 0
-var profits = [Int]()
 
 for i in 0..<n {
-    prices.append(Int(pricesString.split(separator: " ")[i]) ?? 0)
+    let element = Int(input[i]) ?? 0
+    lengths.append(element)
+    sum += element
 }
 
-var min = prices[0]
-var max = prices[0]
+let max = lengths.max() ?? -1
+sum -= max
 
-if prices.count < 2 {
-    profitMax = 0
-} else if k == 1 {
-    for i in 0..<n-1 {
-        if prices[i] < prices[i+1] {
-            profits.append(prices[i+1] - prices[i])
-        }
-    }
-    profitMax = profits.max() ?? 0
-} else {
-
-    if k != n {
-        
-        //prices.count - k
-        for i in 0..<(n - k) {
-            let subPrices = prices[i...i+k]
-            profit = findMinMaxAndIndexes(subPrices: subPrices, profit: profits)
-            profits.append(profit)
-        }
+if max != -1 {
+    if max - sum <= 0 {
+        ans = max + sum
     } else {
-        let subPrices = ArraySlice<Int>(prices)
-        profit = findMinMaxAndIndexes(subPrices: subPrices, profit: profits)
-        profits.append(profit)
-    }
-    
-    for profit in profits {
-        if profit > profitMax {
-            profitMax = profit
-        }
+        ans = max - sum
     }
 }
 
-func findMinMaxAndIndexes (subPrices : ArraySlice<Int>, profit: [Int]) -> Int {
-    var indexMin = 0
-    var indexMax = 0
-    var minFounded = false
-    
-    min = subPrices.min() ?? 0
-    max = subPrices.max() ?? 0
-    
-    for (index, price) in subPrices.enumerated() {
-        if price == min && !minFounded {
-            indexMin = index
-            minFounded = true
-        } else if price == max {
-            indexMax = index
-        }
-    }
-    let profit = indexMax > indexMin ? max - min : 0
-    return profit
-}
+print(ans)
 
-print(profitMax)
 
-Measure.finish("time")
+//Measure.start("time")
+
+//Measure.finish("time")
 
