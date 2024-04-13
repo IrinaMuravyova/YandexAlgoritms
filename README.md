@@ -21,4 +21,4 @@ Documentation Here
 - [Irina Muravyova](https://github.com/IrinaMuravyova)
 
 ## License
-Project YandexAlgoritms is distributet under the MIT license.
+Project YandexAlgoritms is distributed under the MIT license.
