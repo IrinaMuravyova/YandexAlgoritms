@@ -19,33 +19,6 @@
  Данное решение прошло 33 теста.
  */
 
-import Foundation
-public class Measure {
-    static private var starts = [String: Double]()
-    
-    static public func start(_ key: String) {
-        starts[key] = CFAbsoluteTimeGetCurrent()
-    }
-
-    @discardableResult
-    static public func finish(_ key: String) -> Double {
-        guard let start = starts[key] else {
-            print(" Key [\(key)] not found")
-            return 0
-        }
-        let time = CFAbsoluteTimeGetCurrent() - start
-        print(String(format: "⏲ Measure [\(key)]: %.5f sec.", time))
-        starts.removeValue(forKey: key)
-        return time
-    }
-}
-
-/* Задача
- Вася решил заняться торговлей рыбой. С помощью методов машинного обучения он предсказал цены на рыбу на N дней вперёд. Он решил, что в один день он купит рыбу, а в один из следующих дней — продаст (то есть совершит или ровно одну покупку и продажу или вообще не совершит покупок и продаж, если это не принесёт ему прибыли). К сожалению, рыба — товар скоропортящийся и разница между номером дня продажи и номером дня покупки не должна превышать K.
- Определите, какую максимальную прибыль получит Вася.
- */
-
-Measure.start("time")
 
 let nk = readLine() ?? ""
 let n = Int(nk.split(separator: " ")[0]) ?? 0
@@ -118,4 +91,3 @@ func findMinMaxAndIndexes (subPrices : ArraySlice<Int>, profit: [Int]) -> Int {
 
 print(profitMax)
 
-Measure.finish("time")
