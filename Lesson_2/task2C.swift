@@ -16,30 +16,30 @@
  ДАННОЕ РЕШЕНИЕ ПРОШЛО ВСЕ ТЕСТЫ.
  */
 
-
-let n = Int(readLine() ?? "") ?? 0
-let input = (readLine() ?? "").split(separator: " ")
-var ans = -1
-var lengths = [Int]()
-var sum = 0
-
-
-for i in 0..<n {
-    let element = Int(input[i]) ?? 0
-    lengths.append(element)
-    sum += element
+func findSmallestString() {
+ let n = Int(readLine() ?? "") ?? 0
+ let input = (readLine() ?? "").split(separator: " ")
+ var ans = -1
+ var lengths = [Int]()
+ var sum = 0
+ 
+ 
+ for i in 0..<n {
+     let element = Int(input[i]) ?? 0
+     lengths.append(element)
+     sum += element
+ }
+ 
+ let max = lengths.max() ?? -1
+ sum -= max
+ 
+ if max != -1 {
+     if max - sum <= 0 {
+         ans = max + sum
+     } else {
+         ans = max - sum
+     }
+ }
+ 
+ print(ans)
 }
-
-let max = lengths.max() ?? -1
-sum -= max
-
-if max != -1 {
-    if max - sum <= 0 {
-        ans = max + sum
-    } else {
-        ans = max - sum
-    }
-}
-
-print(ans)
-
