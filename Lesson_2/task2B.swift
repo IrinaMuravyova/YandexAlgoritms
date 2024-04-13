@@ -19,75 +19,75 @@
  Данное решение прошло 33 теста.
  */
 
-
-let nk = readLine() ?? ""
-let n = Int(nk.split(separator: " ")[0]) ?? 0
-let k = Int(nk.split(separator: " ")[1]) ?? 0
-let pricesString = readLine() ?? ""
-
-var prices = [Int]()
-var profit = 0
-var profitMax = 0
-var profits = [Int]()
-
-for i in 0..<n {
-    prices.append(Int(pricesString.split(separator: " ")[i]) ?? 0)
+func findMaxProfit() {
+ let nk = readLine() ?? ""
+ let n = Int(nk.split(separator: " ")[0]) ?? 0
+ let k = Int(nk.split(separator: " ")[1]) ?? 0
+ let pricesString = readLine() ?? ""
+ 
+ var prices = [Int]()
+ var profit = 0
+ var profitMax = 0
+ var profits = [Int]()
+ 
+ for i in 0..<n {
+     prices.append(Int(pricesString.split(separator: " ")[i]) ?? 0)
+ }
+ 
+ var min = prices[0]
+ var max = prices[0]
+ 
+ if prices.count < 2 {
+     profitMax = 0
+ } else if k == 1 {
+     for i in 0..<n-1 {
+         if prices[i] < prices[i+1] {
+             profits.append(prices[i+1] - prices[i])
+         }
+     }
+     profitMax = profits.max() ?? 0
+ } else {
+ 
+     if k != n {
+         
+         //prices.count - k
+         for i in 0..<(n - k) {
+             let subPrices = prices[i...i+k]
+             profit = findMinMaxAndIndexes(subPrices: subPrices, profit: profits)
+             profits.append(profit)
+         }
+     } else {
+         let subPrices = ArraySlice<Int>(prices)
+         profit = findMinMaxAndIndexes(subPrices: subPrices, profit: profits)
+         profits.append(profit)
+     }
+     
+     for profit in profits {
+         if profit > profitMax {
+             profitMax = profit
+         }
+     }
+ }
+ 
+ func findMinMaxAndIndexes (subPrices : ArraySlice<Int>, profit: [Int]) -> Int {
+     var indexMin = 0
+     var indexMax = 0
+     var minFounded = false
+     
+     min = subPrices.min() ?? 0
+     max = subPrices.max() ?? 0
+     
+     for (index, price) in subPrices.enumerated() {
+         if price == min && !minFounded {
+             indexMin = index
+             minFounded = true
+         } else if price == max {
+             indexMax = index
+         }
+     }
+     let profit = indexMax > indexMin ? max - min : 0
+     return profit
+ }
+ 
+ print(profitMax)
 }
-
-var min = prices[0]
-var max = prices[0]
-
-if prices.count < 2 {
-    profitMax = 0
-} else if k == 1 {
-    for i in 0..<n-1 {
-        if prices[i] < prices[i+1] {
-            profits.append(prices[i+1] - prices[i])
-        }
-    }
-    profitMax = profits.max() ?? 0
-} else {
-
-    if k != n {
-        
-        //prices.count - k
-        for i in 0..<(n - k) {
-            let subPrices = prices[i...i+k]
-            profit = findMinMaxAndIndexes(subPrices: subPrices, profit: profits)
-            profits.append(profit)
-        }
-    } else {
-        let subPrices = ArraySlice<Int>(prices)
-        profit = findMinMaxAndIndexes(subPrices: subPrices, profit: profits)
-        profits.append(profit)
-    }
-    
-    for profit in profits {
-        if profit > profitMax {
-            profitMax = profit
-        }
-    }
-}
-
-func findMinMaxAndIndexes (subPrices : ArraySlice<Int>, profit: [Int]) -> Int {
-    var indexMin = 0
-    var indexMax = 0
-    var minFounded = false
-    
-    min = subPrices.min() ?? 0
-    max = subPrices.max() ?? 0
-    
-    for (index, price) in subPrices.enumerated() {
-        if price == min && !minFounded {
-            indexMin = index
-            minFounded = true
-        } else if price == max {
-            indexMax = index
-        }
-    }
-    let profit = indexMax > indexMin ? max - min : 0
-    return profit
-}
-
-print(profitMax)
-
