@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-   <img src="https://img.shields.io/badge/Engine-Swift-blueviolet" alt="Unity Version">
+   <img src="https://img.shields.io/badge/Engine-XCode v15.3-blueviolet" alt="Unity Version">
    <img src="https://img.shields.io/badge/Version-v1.0-blue" alt="Game Version">
    <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
 </p>
