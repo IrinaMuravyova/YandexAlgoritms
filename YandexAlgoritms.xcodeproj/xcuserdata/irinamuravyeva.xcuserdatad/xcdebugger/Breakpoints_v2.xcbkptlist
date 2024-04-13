@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "EC50E390-038F-4362-930A-0AE8A1B3591E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9C7E2CA5-A132-45F2-BC17-F495CAA4AD67"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YA5_part2/main.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "158"
+            endingLineNumber = "158">
+            <Locations>
+               <Location
+                  uuid = "9C7E2CA5-A132-45F2-BC17-F495CAA4AD67 - 63e5819c670b3814"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "YA5_part2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/irinamuravyeva/Documents/MySWIFTApps/YandexAlgoritms/YA5_part2/YA5_part2/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "172"
+                  endingLineNumber = "172">
+               </Location>
+               <Location
+                  uuid = "9C7E2CA5-A132-45F2-BC17-F495CAA4AD67 - 63e5819c670b3814"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "YA5_part2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/irinamuravyeva/Documents/MySWIFTApps/YandexAlgoritms/YA5_part2/YA5_part2/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "172"
+                  endingLineNumber = "172">
+               </Location>
+               <Location
+                  uuid = "9C7E2CA5-A132-45F2-BC17-F495CAA4AD67 - 63e5819c670b26bb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "YA5_part2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/irinamuravyeva/Documents/MySWIFTApps/YandexAlgoritms/YA5_part2/YA5_part2/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "161"
+                  endingLineNumber = "161">
+               </Location>
+               <Location
+                  uuid = "9C7E2CA5-A132-45F2-BC17-F495CAA4AD67 - 63e5819c670b26bb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "YA5_part2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/irinamuravyeva/Documents/MySWIFTApps/YandexAlgoritms/YA5_part2/YA5_part2/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "161"
+                  endingLineNumber = "161">
+               </Location>
+               <Location
+                  uuid = "9C7E2CA5-A132-45F2-BC17-F495CAA4AD67 - 63e5819c670b27e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "YA5_part2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/irinamuravyeva/Documents/MySWIFTApps/YandexAlgoritms/YA5_part2/YA5_part2/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "156"
+                  endingLineNumber = "156">
+               </Location>
+               <Location
+                  uuid = "9C7E2CA5-A132-45F2-BC17-F495CAA4AD67 - 63e5819c670b2626"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "YA5_part2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/irinamuravyeva/Documents/MySWIFTApps/YandexAlgoritms/YA5_part2/YA5_part2/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "158"
+                  endingLineNumber = "158">
+               </Location>
+               <Location
+                  uuid = "9C7E2CA5-A132-45F2-BC17-F495CAA4AD67 - 63e5819c670b2626"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "YA5_part2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/irinamuravyeva/Documents/MySWIFTApps/YandexAlgoritms/YA5_part2/YA5_part2/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "158"
+                  endingLineNumber = "158">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "79521D16-7695-4CBE-B0FA-80736D977C15"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YA5_part2/main.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "165"
+            endingLineNumber = "165">
+            <Locations>
+               <Location
+                  uuid = "79521D16-7695-4CBE-B0FA-80736D977C15 - 63e5819c670b393f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "YA5_part2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/irinamuravyeva/Documents/MySWIFTApps/YandexAlgoritms/YA5_part2/YA5_part2/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "165"
+                  endingLineNumber = "165">
+               </Location>
+               <Location
+                  uuid = "79521D16-7695-4CBE-B0FA-80736D977C15 - 63e5819c670b393f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "YA5_part2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/irinamuravyeva/Documents/MySWIFTApps/YandexAlgoritms/YA5_part2/YA5_part2/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "165"
+                  endingLineNumber = "165">
+               </Location>
+               <Location
+                  uuid = "79521D16-7695-4CBE-B0FA-80736D977C15 - 63e5819c670b393f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "YA5_part2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/irinamuravyeva/Documents/MySWIFTApps/YandexAlgoritms/YA5_part2/YA5_part2/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "165"
+                  endingLineNumber = "165">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EFC63E14-C8CF-428F-A764-3E8B800130E0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YA5_part2/main.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "193"
+            endingLineNumber = "193">
+            <Locations>
+               <Location
+                  uuid = "EFC63E14-C8CF-428F-A764-3E8B800130E0 - 63e5819c670b3ab8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "YA5_part2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/irinamuravyeva/Documents/MySWIFTApps/YandexAlgoritms/YA5_part2/YA5_part2/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "192"
+                  endingLineNumber = "192">
+               </Location>
+               <Location
+                  uuid = "EFC63E14-C8CF-428F-A764-3E8B800130E0 - 63e5819c670b3ab8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "YA5_part2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/irinamuravyeva/Documents/MySWIFTApps/YandexAlgoritms/YA5_part2/YA5_part2/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "192"
+                  endingLineNumber = "192">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "760F141C-4EDA-4F28-B351-5C6FB3ECC749"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YA5_part2/main.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "170"
+            endingLineNumber = "170">
+            <Locations>
+               <Location
+                  uuid = "760F141C-4EDA-4F28-B351-5C6FB3ECC749 - 63e5819c670b39d2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "YA5_part2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/irinamuravyeva/Documents/MySWIFTApps/YandexAlgoritms/YA5_part2/YA5_part2/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "170"
+                  endingLineNumber = "170">
+               </Location>
+               <Location
+                  uuid = "760F141C-4EDA-4F28-B351-5C6FB3ECC749 - 63e5819c670b39d2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "YA5_part2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/irinamuravyeva/Documents/MySWIFTApps/YandexAlgoritms/YA5_part2/YA5_part2/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "170"
+                  endingLineNumber = "170">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8DAB36DC-1740-40E5-ABA0-C5D1CE06E688"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YA5_part2/main.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "171"
+            endingLineNumber = "171">
+            <Locations>
+               <Location
+                  uuid = "8DAB36DC-1740-40E5-ABA0-C5D1CE06E688 - 63e5819c670b3837"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "YA5_part2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/irinamuravyeva/Documents/MySWIFTApps/YandexAlgoritms/YA5_part2/YA5_part2/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "173"
+                  endingLineNumber = "173">
+               </Location>
+               <Location
+                  uuid = "8DAB36DC-1740-40E5-ABA0-C5D1CE06E688 - 63e5819c670b39f5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "YA5_part2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/irinamuravyeva/Documents/MySWIFTApps/YandexAlgoritms/YA5_part2/YA5_part2/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "171"
+                  endingLineNumber = "171">
+               </Location>
+               <Location
+                  uuid = "8DAB36DC-1740-40E5-ABA0-C5D1CE06E688 - 63e5819c670b39f5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "YA5_part2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/irinamuravyeva/Documents/MySWIFTApps/YandexAlgoritms/YA5_part2/YA5_part2/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "171"
+                  endingLineNumber = "171">
+               </Location>
+               <Location
+                  uuid = "8DAB36DC-1740-40E5-ABA0-C5D1CE06E688 - 63e5819c670b39f5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "YA5_part2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/irinamuravyeva/Documents/MySWIFTApps/YandexAlgoritms/YA5_part2/YA5_part2/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "171"
+                  endingLineNumber = "171">
+               </Location>
+               <Location
+                  uuid = "8DAB36DC-1740-40E5-ABA0-C5D1CE06E688 - 63e5819c670b39f5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "YA5_part2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/irinamuravyeva/Documents/MySWIFTApps/YandexAlgoritms/YA5_part2/YA5_part2/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "171"
+                  endingLineNumber = "171">
+               </Location>
+               <Location
+                  uuid = "8DAB36DC-1740-40E5-ABA0-C5D1CE06E688 - 63e5819c670b39f5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "YA5_part2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/irinamuravyeva/Documents/MySWIFTApps/YandexAlgoritms/YA5_part2/YA5_part2/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "171"
+                  endingLineNumber = "171">
+               </Location>
+               <Location
+                  uuid = "8DAB36DC-1740-40E5-ABA0-C5D1CE06E688 - 63e5819c670b39f5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "YA5_part2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/irinamuravyeva/Documents/MySWIFTApps/YandexAlgoritms/YA5_part2/YA5_part2/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "171"
+                  endingLineNumber = "171">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

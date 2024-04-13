@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		8847DBC82BA1AA3C00A7DCFA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8847DBC72BA1AA3C00A7DCFA /* main.swift */; };
+		88E132D82BCA3AB800D69EF6 /* taskA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E132D72BCA3AB800D69EF6 /* taskA.swift */; };
+		88E132DA2BCA3B4A00D69EF6 /* taskB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E132D92BCA3B4A00D69EF6 /* taskB.swift */; };
+		88E132DC2BCA3B5A00D69EF6 /* taskC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E132DB2BCA3B5A00D69EF6 /* taskC.swift */; };
+		88E132E12BCA63BB00D69EF6 /* taskD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E132E02BCA63BB00D69EF6 /* taskD.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		8847DBC42BA1AA3C00A7DCFA /* YA5_part2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = YA5_part2; sourceTree = BUILT_PRODUCTS_DIR; };
 		8847DBC72BA1AA3C00A7DCFA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		88E132D72BCA3AB800D69EF6 /* taskA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taskA.swift; sourceTree = "<group>"; };
+		88E132D92BCA3B4A00D69EF6 /* taskB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taskB.swift; sourceTree = "<group>"; };
+		88E132DB2BCA3B5A00D69EF6 /* taskC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taskC.swift; sourceTree = "<group>"; };
+		88E132E02BCA63BB00D69EF6 /* taskD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taskD.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +49,8 @@
 		8847DBBB2BA1AA3B00A7DCFA = {
 			isa = PBXGroup;
 			children = (
-				8847DBC62BA1AA3C00A7DCFA /* YA5_part2 */,
+				88E132DF2BCA5EE000D69EF6 /* Lesson_1 */,
+				8847DBC62BA1AA3C00A7DCFA /* Lesson_2 */,
 				8847DBC52BA1AA3C00A7DCFA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +63,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8847DBC62BA1AA3C00A7DCFA /* YA5_part2 */ = {
+		8847DBC62BA1AA3C00A7DCFA /* Lesson_2 */ = {
 			isa = PBXGroup;
 			children = (
 				8847DBC72BA1AA3C00A7DCFA /* main.swift */,
+				88E132D72BCA3AB800D69EF6 /* taskA.swift */,
+				88E132D92BCA3B4A00D69EF6 /* taskB.swift */,
+				88E132DB2BCA3B5A00D69EF6 /* taskC.swift */,
+				88E132E02BCA63BB00D69EF6 /* taskD.swift */,
 			);
-			path = YA5_part2;
+			path = Lesson_2;
+			sourceTree = "<group>";
+		};
+		88E132DF2BCA5EE000D69EF6 /* Lesson_1 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lesson_1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,7 +110,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1520;
-				LastUpgradeCheck = 1520;
+				LastUpgradeCheck = 1530;
 				TargetAttributes = {
 					8847DBC32BA1AA3C00A7DCFA = {
 						CreatedOnToolsVersion = 15.2;
@@ -120,6 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88E132DC2BCA3B5A00D69EF6 /* taskC.swift in Sources */,
+				88E132DA2BCA3B4A00D69EF6 /* taskB.swift in Sources */,
+				88E132E12BCA63BB00D69EF6 /* taskD.swift in Sources */,
+				88E132D82BCA3AB800D69EF6 /* taskA.swift in Sources */,
 				8847DBC82BA1AA3C00A7DCFA /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -161,6 +185,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -224,6 +249,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -249,6 +275,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = LZP4UC5RAY;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -260,6 +287,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = LZP4UC5RAY;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
